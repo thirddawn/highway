@@ -110,15 +110,3 @@ body{
   content: "|";
   margin-right: 1ch;
 }
-
-@media screen and (max-width: 768px) {
-  .desktop {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .mobile {
-    display: none;
-  }
-}

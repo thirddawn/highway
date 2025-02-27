@@ -1,0 +1,24 @@
+{
+    "name": "Sample House",
+    "id": 2,
+    "address": "5678 Sample Ave",
+    "city": "Sample City",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "size": 850,
+    "images":[
+        "splash.webp",
+        "entrance.webp",
+        "exterior.webp",
+        "window.webp",
+        "suspension.webp"
+    ],
+    "blurHashes":[
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ]
+}
