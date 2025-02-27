@@ -1,7 +1,7 @@
 {
     "name": "Test House",
     "id": 1,
-    "address": "1234 Test St.",
+    "address": "1234 Test St",
     "city": "Test City",
     "bedrooms": 3,
     "bathrooms": 2,
