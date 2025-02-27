@@ -1,9 +1,17 @@
 import DesktopDisplay from "../islands/DesktopDisplay.tsx";
 import { blurHashToDataURL } from "../static/default/blurHashTools.ts";
+import { isMobile } from 'https://deno.land/x/is_mobile@v1.0.0/mod.ts'
 
 export default function Home() {
   const json = JSON.parse(Deno.readTextFileSync(`${Deno.cwd()}/static/house1/info.json`))
 
+  if(isMobile(navigator.userAgent)){
+    return (
+      <div class="container">
+        <h1>Nice phone you got there</h1>
+      </div>
+    )
+  }
   return (
     <div class="container">
       <div class="main">
