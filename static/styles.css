@@ -1,0 +1,95 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #171717;
+  color: #fff;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: calc(100vh);
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5ch;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header a{
+  text-decoration: none;
+  color: #fff;
+  font-size: xx-large;
+  transition: transform 0.2s;
+}
+
+.header a:hover{
+  color: rgb(216, 216, 216);
+  transform: translate(0, -5px) scale(1.1) rotate(-5deg);
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.desktop{
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 25%, rgba(0,0,0,0) 75%), radial-gradient();
+  background-size: cover, cover;
+  background-position: center, center;
+  aspect-ratio: 9/16;
+  height: 90vh;
+  border-radius: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  user-select: none;
+}
+
+.desktop .lower-third{
+  height: min-content;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.desktop .title{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.desktop .information{
+  display: flex;
+  gap: 2ch;
+  font-size: larger;
+}
+
+.desktop .information div{
+  display: flex;
+  align-items: last baseline;
+  gap: 5px;
+}
+
+.desktop .information div::before{
+  content: "|";
+  margin-right: 1ch;
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Test House",
+    "id": 1,
+    "address": "1234 Test St.",
+    "city": "Test City",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "size": 700,
+    "images":[
+        "splash.webp",
+        "kitchen.webp",
+        "livingroom.webp",
+        "exterior.webp",
+        "stairs.webp",
+        "pool.webp"
+    ],
+    "blurHashes":[
+        "LHFr#4^%V@M}.T={f5j[00azxtt7",
+        "L5FY7A00*0zn00_3E1tS02Tev{KR",
+        "L6Heaw9F00E2?FE2?GM|00-;_Mxu",
+        "LJGlS44U00?G?wD*Di%M00%gadt7",
+        "LAFrR]1$?^,-4.xDxt_30N-T4ntl",
+        "LSJ*k+yGD*Rk%%?bWAt7%NRPV?xu"
+    ]
+}
